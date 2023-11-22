@@ -1,6 +1,5 @@
 # The Ultimate Ecommerce Dashboard
 
-## Introduction
 
 This is a full write up for my All-in-1 Ecommerce Dashboard project. The goal of this project was to create a fully functioning ecommerce website dashboard, where managers can manage products, create promos, style their ecommerce website, and handle many other processes without knowing any coding knowledge.
 
