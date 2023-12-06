@@ -10,10 +10,11 @@ The dashboard has many features, allowing managers to:
 - Style the homepage of the website, add social media posts to the website, and create billboards to show on the top of other pages
 - See a list of all Custumer accounts on the store page (list of customers who have created an account on the main page), and take a look at their attributes (order history, contact info, etc)
 - Create and manage Promos, which will automatically activate and expire at given times, and will apply discounts to certain items
+- Send transactional emails that trigger once users sign-up or make orders
 
 The dashboard is meant to be a companion for an actual Ecommerce Website, which I also developed. Making edits to the dashboard will directly update the actual ecommerce website!
 
-I created the dashboard to manage an actual website, [The Carbon Crucible](https://thecarboncrucible.com). Right now, the Ecommerce Dashboard only works for that website. I plan on creating a public demo version with dummy data, and in the future maybe releasing a version where anybody can use the website to create their own ecommerce website. 
+I created the dashboard to manage an actual website, [The Carbon Crucible](https://thecarboncrucible.com). This website uses the same tech stack as the dashboard, and also implements the USPS shipping API to verify shipping addresses and get shipping rates. Right now, the Ecommerce Dashboard only works for that website. I plan on creating a public demo version with dummy data, and in the future maybe releasing a version where anybody can use the website to create their own ecommerce website. 
 
 ---
 ## Entities
