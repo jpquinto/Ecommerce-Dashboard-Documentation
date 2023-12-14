@@ -75,19 +75,22 @@ These tabs are where you can edit the looks of your website.
 ### Heroes
 The **Heroes** tab lets you create `Heroes` for your website. A **hero** is the thing that takes up the entire screen when you enter the home page. 
 
+![Heroes](img/heroes.png)
+
 Here, you can choose the `Heroes` that will shows up on the rotating gallery on the home page. (Yes, technically, there is only one "Hero" for the home page, and all the "Heroes" you create are just part of that one Hero. But for the sake of simplicity, I just called each individual part a "Hero")
 
 On this tab, you can view/delete all your Heroes, and set them as `Active/Inactive`. Only active heroes will show up on the store page. 
 
 There is also a designated `Order` that you can set up for the `Heroes` to show up in. So, evidently, the first thing a user will see when the go to the website is the `Hero` with the `Order` set to `1`.
 
-You can have as many `Heroes` active as you want, just keep in mind that you don't want too many there. Simplicity and loading times are key.
-
+You can have as many `Heroes` active as you want, just keep in mind that you don't want *too* many there. 
 
 ### Billboards
 The **Billboards** tab lets you create and edit `Billboards` for your website. These are the big pictures that show up on the top of the shop page, as well as individual `Category` pages. Note that any `Category` must be tied to a specific `Billboard`, so you **must** create a `Billboard` before you create a `Category`.
 
 On this page, you can choose which of your `Billboards` is `inShop`, which means it is the sole `Billboard` at the top of the main shop page. Be sure to pick a nice picture!
+
+![Billboard](img/billboards.png)
 
 
 ### Social Media Posts
@@ -101,9 +104,12 @@ To make the post show up on the main store page, make sure to set `inShop` to tr
 
 It's important to note that the main store page shows *up to* 4 of these `Social Media Posts`, and it takes the most recent ones. So keep this in mind when updating them.
 
+![Social Media](img/socialmedia.png)
 
 ### Styling
 The **Styling** tab allows users to configure some styling on the website. It allows for full customization of the `Heroes`, and allows you to choose which `Billboard` to appear in the shop.
+
+![Styling](img/styling1.png)
 
 In future updates, the **Styling** tab may allow for:
 - Picking accent colors and other styling options on the website
@@ -123,14 +129,19 @@ The Manage Products section has 3 tabs:
 ### Categories
 The `Categories` tab allows you to view, create, edit, and delete your `Categories`. These categories are one of the two major **filters** of your products. Along with `Materials`, users can sort by `Category` on the main shop page to narrow down the list of `Products`. The `Category` and the `Material` will also show up in every description of each `Product` on the store page.
 
+![Category](img/categories.png)
+
 To create a new `Category`, you just need to provide a name for it, as well as the specific `Billboard` it is tied to. Each `Category` needs a `Billboard` because each individual `Category` page on the store website will have a `Billboard` at the top. You'll find that you won't be able to create a `Category` without creating a `Billboard` first. 
 
 ### Materials
 The `Materials` tab allows you to view, create, edit, and delete your `Categories`. This is pretty straightforward, you just need to provide a name for the material. 
 
+![Materials](img/materials.png)
 
 ### Products
 Now we can look at the heart and soul of your business, the `Products`. 
+
+![Products](img/products1.png)
 
 The `Product` is the most complicated entity of anything on this website, so let's go over every property that each `Product` has:
 - `name`: The name of the product
@@ -151,6 +162,7 @@ Everything listed above **MUST** be filled out when initially creating a `Produc
 
 So yeah, there's a lot that goes into creating a new product. But... what do you expect for the heart and soul of your business... right?
 
+![Product](img/editproduct.png)
 
 The `Products` tab allows you to create, update, delete, and view your products. You can change any of the attributes above (besides the number sold, reviews, and average ratings, as those are updated by customers). 
 
@@ -167,6 +179,8 @@ The **Store Logistics** section is for managing the business. Theres:
 ### Orders
 The **Orders** tab is where you can view all of your orders and update their status. 
 
+![Orders](img/orders.png)
+
 There are 3 main status updates for an order:
 - Paid
 - Shipped
@@ -180,14 +194,20 @@ The `Orders` tab will show the status of each order, the customer's name (or "Gu
 
 Navigating to an individual `Order`'s page will give you a more in-depth summary of the order, as well as a form to update the status (if it is paid for). It will also show you the promos that were used in that `Order`.
 
+![Order](img/order.png)
+
 ### Reviews
 The **Reviews** tab is where you can see all of the reviews for your store.
+
+![Review](img/reviews.png)
 
 It is important to note that ONLY registered Customers (people who have created an account) can write reviews. Furthermore, Customers can only write reviews if they have already bought the product, and of course, can only write one review per product. 
 
 
 ### Promos
 The **Promos** tab is where you can create, edit, and see the promos for the store.
+
+![Promos](img/promos.png)
 
 There are two types of `Promo` you can create:
 - Promo Codes: to activate these promotions, users must input the specific code for them. Once the code is activated, the promo will apply the discount to the items that are in the cart. 
@@ -209,8 +229,11 @@ The `name` and `description` fields for the `Promo` are really just for organiza
 ### Customers
 The **Customers** tab allows you to see the users that have created an account on the store page. Right now, it is required for anyone who signs up to include their `name` and their `email`, so you'll see those here, along with the number of orders they have placed, the number of reviews they have left, and the date they joined. 
 
+![Customers](img/customers.png)
+
 Going to an individual `Customer`'s page will give a more in-depth look at their profile, showing you more of their information, as well as a detailed table of the `Orders` they have placed and the `Reviews` they have written. 
 
+![Customer](img/customer.png)
 
 ---
 ## Settings and Help
