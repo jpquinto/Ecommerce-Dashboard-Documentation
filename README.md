@@ -247,5 +247,15 @@ The `name` is only shown on the dashboard.
 The **Help** page contains the same documentation that you see on this page. 
 
 ---
+
+## Other Features
+
+### Automated Emails
+The Ecommerce Dashboard handles automated transactional emails. It sends emails for the following events:
+- 'Thank you for signing up' email sent to users who create an account on the store page
+- Order confirmation email sent when a customer places an order
+
+![Email](img/emails.png)
+
 ## Disclaimer
 This project was built off of a tutorial by Antonio Erdeljac. While I did add a LOT of different features from the tutorial, a lot of the starter code for this project (and the store page) is from that tutorial.
