@@ -3,6 +3,8 @@
 
 This is a full write up for my All-in-1 Ecommerce Dashboard project. The goal of this project was to create a fully functioning ecommerce website dashboard, where managers can manage products, create promos, style their ecommerce website, and handle many other processes without knowing any coding knowledge.
 
+![Dashboard](img/dashboard.png)
+
 The dashboard has many features, allowing managers to:
 - Create new Products, adjust their attributes, and see insights on the Product's performance on the site (sales, reviews, etc)
 - View a list of the Orders in the store in a nice data table, with organizational filters (paid, shipped, fulfilled)
@@ -15,6 +17,8 @@ The dashboard has many features, allowing managers to:
 The dashboard is meant to be a companion for an actual Ecommerce Website, which I also developed. Making edits to the dashboard will directly update the actual ecommerce website!
 
 I created the dashboard to manage an actual website, [The Carbon Crucible](https://thecarboncrucible.com). This website uses the same tech stack as the dashboard, and also implements the USPS shipping API to verify shipping addresses and get shipping rates. Right now, the Ecommerce Dashboard only works for that website. I plan on creating a public demo version with dummy data, and in the future maybe releasing a version where anybody can use the website to create their own ecommerce website. 
+
+![TCC](img/tcc.png)
 
 ---
 ## Entities
@@ -40,6 +44,8 @@ We will now go over all of the individual pages on the dashboard.
 ## Overview/Homepage
 The **Overview/Homepage** is a good place to get all of the important information on your store in one place. 
 
+![Dashboard](img/dashboard.png)
+
 It gives the plain statistics of:
 - Total revenue of the store (this doesn't include shipping rates, just the total of product prices)
 - Total amount of sales (paid orders)
@@ -53,6 +59,8 @@ At the bottom of the page, you have some interesting cards:
 - **Inventory Overview**: shows a list of all the products in the store, as well as the quantity of each that we have in stock
 - **Recent Orders**: shows a quick overview of the most recent orders placed in the store
 - **Promo Timeline**: a quick timeline of the promotions that are coming up or have ended in the last 7 day
+
+![Dashboard 2](img/dashboard2.png)
 
 ---
 ## Website Styling
